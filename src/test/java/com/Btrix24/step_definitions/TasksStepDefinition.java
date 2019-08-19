@@ -1,9 +1,12 @@
 package com.Btrix24.step_definitions;
 
+import com.Btrix24.utulities.BrowserUtils;
+import com.Btrix24.utulities.Driver;
 import com.Btrix24.utulities.Pages;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.interactions.Actions;
 
 public class TasksStepDefinition {
 
@@ -13,19 +16,18 @@ public class TasksStepDefinition {
     public void user_on_the_landing_page() {
         pages.loginPage().goToLandingPage();
     }
-
-    @Then("user logs into application with helpdesk{int}@cybertekschool.com and UserUser")
-    public void user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String username,String password) {
-
-        System.out.println(username);
-        System.out.println(password);
-    }
+//
+//    @Then("user logs into application with helpdesk{int}@cybertekschool.com and UserUser")
+//    public void user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String username,String password) {
+//
+//        pages.loginPage().login(username,password);
+//    }
 
     @Then("user navigate to {string}")
     public void user_navigate_to(String module) {
         // Write code here that turns the phrase above into concrete actions
         pages.tasksPage().navigateToModule(module);
-        throw new cucumber.api.PendingException();
+
     }
 
     @Then("user clicks on new task")
@@ -41,7 +43,19 @@ public class TasksStepDefinition {
 
     @Then("user click {string}")
     public void user_click(String string) {
-        pages.tasksPage().addTaskButton.click();
+        Actions action=new Actions(Driver.getDriver());
+        action.moveToElement(pages.tasksPage().tasksButtonLeft).perform();
+        pages.tasksPage().newTaskSmallPlusButtonLeftOfTasksButton.click();
+        //BrowserUtils.waitFor(2);
+        Driver.getDriver().switchTo().frame(pages.tasksPage().iframeSrc);
+
+        pages.tasksPage().thingsToDoElement.sendKeys("Task-1");
+        pages.tasksPage().addTaskButtonIframe.click();
+        Driver.getDriver().switchTo().parentFrame();
+        Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
+
+
+
     }
 
     @Then("user verifies {string} is displayed")
@@ -62,4 +76,8 @@ public class TasksStepDefinition {
     }
 
 
+    @Then("user logs into application with {string} and {string}")
+    public void userLogsIntoApplicationWithAnd(String username, String password) {
+        pages.loginPage().login(username,password);
+    }
 }
