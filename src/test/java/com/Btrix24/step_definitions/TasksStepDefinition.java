@@ -3,6 +3,7 @@ package com.Btrix24.step_definitions;
 import com.Btrix24.utulities.BrowserUtils;
 import com.Btrix24.utulities.Driver;
 import com.Btrix24.utulities.Pages;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
@@ -51,17 +52,14 @@ public class TasksStepDefinition {
 
         pages.tasksPage().thingsToDoElement.sendKeys("Task-1");
         pages.tasksPage().addTaskButtonIframe.click();
-        Driver.getDriver().switchTo().parentFrame();
-        Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
+        //Driver.getDriver().switchTo().parentFrame();
+        //Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
 
 
 
     }
 
-    @Then("user verifies {string} is displayed")
-    public void user_verifies_is_displayed(String expected) {
-        Assert.assertTrue(expected.contains(pages.tasksPage().newTaskDisplayingLocator.getText()));
-    }
+
 
     @Then("user logs into application with marketing{int}@cybertekschool.com and UserUser")
     public void user_logs_into_application_with_marketing_cybertekschool_com_and_UserUser(Integer int1) {
@@ -79,5 +77,12 @@ public class TasksStepDefinition {
     @Then("user logs into application with {string} and {string}")
     public void userLogsIntoApplicationWithAnd(String username, String password) {
         pages.loginPage().login(username,password);
+    }
+
+    @And("user verifies new task message displayed")
+    public void userVerifiesNewTaskMessageDisplayed() {
+        Driver.getDriver().switchTo().parentFrame();
+        Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
+
     }
 }

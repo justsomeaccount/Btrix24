@@ -9,7 +9,7 @@ Feature: As a user I should be able to create a task from activity stream.
 #    And   user clicks on new task
 #    Then  user enters "task"
     Then  user click "ADD TASK"
-#    And  user verifies "task" is displayed
+   And  user verifies new task message displayed
 
     Examples:
     |username|password|
