@@ -3,6 +3,7 @@ package com.Btrix24.step_definitions;
 import com.Btrix24.utulities.Pages;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.junit.Assert;
 
 public class TasksStepDefinition {
 
@@ -29,26 +30,23 @@ public class TasksStepDefinition {
 
     @Then("user clicks on new task")
     public void user_clicks_on_new_task() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+        pages.tasksPage().newTaskButton.click();
     }
 
     @Then("user enters {string}")
     public void user_enters(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+        pages.tasksPage().thingsToDoElement.sendKeys("schedule a new meeting");
+
     }
 
     @Then("user click {string}")
     public void user_click(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+        pages.tasksPage().addTaskButton.click();
     }
 
     @Then("user verifies {string} is displayed")
-    public void user_verifies_is_displayed(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+    public void user_verifies_is_displayed(String expected) {
+        Assert.assertTrue(expected.contains(pages.tasksPage().newTaskDisplayingLocator.getText()));
     }
 
     @Then("user logs into application with marketing{int}@cybertekschool.com and UserUser")
