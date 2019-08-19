@@ -36,6 +36,17 @@ public class TasksPage extends BasePage {
     @FindBy(xpath="//*[.='Task has been created']")
     public WebElement messageTaskCreated;
 
+    @FindBy(css=".tasks-task-mpf-link")
+    public WebElement checklistButtonIframe;
+
+    @FindBy(css=".js-id-checklist-is-form-title.task-checklist-field-add")
+    public WebElement checklistThingsToDoTextIframe;
+
+    @FindBy(css=".js-id-checklist-is-open-form.task-dashed-link-inner")
+    public WebElement checklistThingsToDoAddIframe;
+
+    @FindBy(css=".js-id-checklist-is-i-title ")
+    public WebElement checklistAddedIframe;
 
 
 
@@ -45,7 +56,11 @@ public class TasksPage extends BasePage {
 
 
 
-////////////I reviewed until here (MD)/////////////////////////////
+
+
+
+
+    ////////////I reviewed until here (MD)/////////////////////////////
         @FindBy(xpath = "//a[@id='tasks-buttonAdd']")
         public WebElement newTaskButton;
 

@@ -6,6 +6,7 @@ import com.Btrix24.utulities.Pages;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
 
@@ -84,5 +85,59 @@ public class TasksStepDefinition {
         Driver.getDriver().switchTo().parentFrame();
         Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
 
+    }
+
+    @When("user logs into application as {string}")
+    public void userLogsIntoApplicationAs(String role) {
+        pages.loginPage().login(role);
+    }
+
+    @Then("user add task using plus button on left of Tasks button")
+    public void userAddTaskUsingPlusButtonOnLeftOfTasksButton() {
+        Actions action=new Actions(Driver.getDriver());
+        action.moveToElement(pages.tasksPage().tasksButtonLeft).perform();
+        pages.tasksPage().newTaskSmallPlusButtonLeftOfTasksButton.click();
+        //BrowserUtils.waitFor(2);
+        Driver.getDriver().switchTo().frame(pages.tasksPage().iframeSrc);
+
+        pages.tasksPage().thingsToDoElement.sendKeys("Task-1");
+        pages.tasksPage().addTaskButtonIframe.click();
+        //Driver.getDriver().switchTo().parentFrame();
+        //Assert.assertTrue(pages.tasksPage().messageTaskCreated.isDisplayed());
+
+    }
+
+    @And("user clicks on plus button on left of Tasks button")
+    public void userClicksOnPlusButtonOnLeftOfTasksButton() {
+        Actions action=new Actions(Driver.getDriver());
+        action.moveToElement(pages.tasksPage().tasksButtonLeft).perform();
+        pages.tasksPage().newTaskSmallPlusButtonLeftOfTasksButton.click();
+        //BrowserUtils.waitFor(2);
+    }
+
+    @Then("user adds task on pop up form")
+    public void userAddsTaskOnPopUpForm() {
+        Driver.getDriver().switchTo().frame(pages.tasksPage().iframeSrc);
+
+        pages.tasksPage().thingsToDoElement.sendKeys("Task-1");
+    }
+
+    @And("user saves the form and task created")
+    public void userSavesTheFormAndTaskCreated() {
+        pages.tasksPage().addTaskButtonIframe.click();
+
+    }
+
+    @Then("user adds checklist")
+    public void userAddsChecklist() {
+        pages.tasksPage().checklistButtonIframe.click();
+        pages.tasksPage().checklistThingsToDoTextIframe.sendKeys("Step-1");
+        pages.tasksPage().checklistThingsToDoAddIframe.click();
+
+    }
+
+    @Then("user verify checklist added to task")
+    public void userVerifyChecklistAddedToTask() {
+        Assert.assertTrue(pages.tasksPage().checklistAddedIframe.isDisplayed());
     }
 }
