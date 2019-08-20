@@ -3,74 +3,147 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 242223,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 16,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3304,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 25278,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6878,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with helpdesk45@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 40
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String,String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5579,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5468,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3423,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3386,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3285,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user verifies \"task\" is displayed",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
             "keyword": "And "
           }
         ],
@@ -81,74 +154,147 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 7981,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 17,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4433,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5988,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5499,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with helpdesk46@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "46",
+                  "offset": 40
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String,String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5377,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5365,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4999,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5467,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5057,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user verifies \"task\" is displayed",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
             "keyword": "And "
           }
         ],
@@ -159,74 +305,147 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 5518,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 18,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 5143,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5459,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5737,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with marketing45@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 41
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_marketing_cybertekschool_com_and_UserUser(Integer)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5218,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5057,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5564,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5569,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5748,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user verifies \"task\" is displayed",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
             "keyword": "And "
           }
         ],
@@ -237,74 +456,147 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 9397,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 19,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 5559,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7123,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 8163,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with marketing46@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "46",
+                  "offset": 41
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_marketing_cybertekschool_com_and_UserUser(Integer)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6628,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6034,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5820,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 8797,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6043,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user verifies \"task\" is displayed",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
             "keyword": "And "
           }
         ],
@@ -315,74 +607,147 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 8352,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 20,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 5390,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7628,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6342,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with hr45@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 34
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_hr_cybertekschool_com_and_UserUser(Integer)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5658,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5267,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5223,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5434,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5463,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user verifies \"task\" is displayed",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
             "keyword": "And "
           }
         ],
@@ -393,75 +758,264 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 14957,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
         "line": 21,
         "name": "User should be able to create a task",
         "description": "",
         "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;user-should-be-able-to-create-a-task;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 45869,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6417,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user on the landing page",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5462,
+              "status": "skipped"
             },
             "line": 7,
             "name": "user logs into application with hr46@cybertekschool.com and UserUser",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "46",
+                  "offset": 34
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_hr_cybertekschool_com_and_UserUser(Integer)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 11518,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user navigate to \"Tasks\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TasksStepDefinition.user_navigate_to(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6526,
+              "status": "skipped"
             },
             "line": 9,
             "name": "user clicks on new task",
-            "match": {},
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_new_task()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5392,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters \"task\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TasksStepDefinition.user_enters(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5229,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click \"ADD TASK\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TASK\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TasksStepDefinition.user_click(String)"
+            },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5221,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user verifies \"task\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"task\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tasks"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7112,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "verify that user can upload a link",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-create-a-task-from-activity-stream.;verify-that-user-can-upload-a-link",
+        "after": [
+          {
+            "result": {
+              "duration": 4853,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8589,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user on the landing page",
+            "match": {
+              "location": "TasksStepDefinition.user_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7754,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user logs into application with \"helpdesk45@cybertekschool.com\" and \"UserUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk45@cybertekschool.com\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 68
+                }
+              ],
+              "location": "TasksStepDefinition.user_logs_into_application_with_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5803,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on plus button on left of Tasks button",
+            "match": {
+              "location": "TasksStepDefinition.user_clicks_on_plus_button_on_left_of_Tasks_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5167,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user adds task on pop up form",
+            "match": {
+              "location": "TasksStepDefinition.user_adds_task_on_pop_up_form()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
               "status": "undefined"
             },
-            "line": 12,
-            "name": "user verifies \"task\" is displayed",
+            "line": 29,
+            "name": "user upload a \"link\"",
             "match": {},
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6434,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user verify checklist added to task",
+            "match": {
+              "location": "TasksStepDefinition.user_verify_checklist_added_to_task()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
