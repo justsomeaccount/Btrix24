@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",
                 "html:target/default-cucumber-reports"
         },
-       tags = {"@tasks"},
+       tags = {"@wip"},
         features = {"src/test/resources/features"  }, //to specify where are the features
 
         //feature contains scenarios
@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
         glue = {"com/Btrix24/step_definitions"},
         //dry tun - to generate step definitions automatically
         //you will see them in the console output
-        dryRun =true
+        dryRun =false
 
 )
 

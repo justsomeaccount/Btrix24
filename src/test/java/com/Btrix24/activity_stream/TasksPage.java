@@ -14,11 +14,53 @@ import java.util.List;
 public class TasksPage extends BasePage {
 
 
+
     Pages pages = new Pages();
 
     public TasksPage(){
         PageFactory.initElements(Driver.getDriver(), this);}
 
+//////////////////Changes/Addition by (MD)/////////////////////////
+       @FindBy(css=".menu-item-plus-icon")
+       public WebElement newTaskSmallPlusButtonLeftOfTasksButton;
+
+    @FindBy(xpath="//a[@title='Tasks']/span[1]")
+    public WebElement tasksButtonLeft;
+
+    @FindBy(css=".side-panel-content-container>iframe")
+    public WebElement iframeSrc;
+
+    @FindBy(css=".ui-btn.ui-btn-success")
+    public WebElement addTaskButtonIframe;
+
+    @FindBy(xpath="//*[.='Task has been created']")
+    public WebElement messageTaskCreated;
+
+    @FindBy(css=".tasks-task-mpf-link")
+    public WebElement checklistButtonIframe;
+
+    @FindBy(css=".js-id-checklist-is-form-title.task-checklist-field-add")
+    public WebElement checklistThingsToDoTextIframe;
+
+    @FindBy(css=".js-id-checklist-is-open-form.task-dashed-link-inner")
+    public WebElement checklistThingsToDoAddIframe;
+
+    @FindBy(css=".js-id-checklist-is-i-title ")
+    public WebElement checklistAddedIframe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ////////////I reviewed until here (MD)/////////////////////////////
         @FindBy(xpath = "//a[@id='tasks-buttonAdd']")
         public WebElement newTaskButton;
 

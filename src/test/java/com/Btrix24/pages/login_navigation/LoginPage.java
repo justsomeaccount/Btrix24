@@ -18,7 +18,7 @@ public class LoginPage {
         @FindBy(css="[name='USER_PASSWORD']")
         public WebElement passwordElement;
 
-        @FindBy(css="[type=submit']")
+        @FindBy(css="[type='submit']")
         public WebElement loginElement;
 
 
@@ -56,8 +56,7 @@ public class LoginPage {
         loginElement.click();
     }
     public void goToLandingPage() {
-        Driver.getDriver().get(ConfigurationReader.getProperty
-                ("url" + ConfigurationReader.getProperty("environment")));
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
 }
