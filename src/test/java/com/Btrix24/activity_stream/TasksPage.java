@@ -91,20 +91,17 @@ public class TasksPage extends BasePage {
         @FindBy(css=".bx-calendar-cell")
         public List<WebElement> dayButton;
 
-        @FindBy(xpath = "//span[contains(text(),'Tasks')]")
-        public WebElement tasksButtonLeft;
+
 
         @FindBy(xpath = " //a[@class='menu-item-plus-icon']")
         public WebElement newTaskPlusIconOnLeft;
 
-        @FindBy(xpath="//button[@class=‘ui-btn ui-btn-success’]")
-        public WebElement addTaskButtonIframe;
+
 
         @FindBy(xpath = "//tr[@data-child-loaded='false']")
         public WebElement newTaskDisplayingLocator;
 
-        @FindBy(xpath = " //body[@id='tasks-iframe-popup-scope']")
-        public WebElement iframeSrc;
+
 
         @FindBy(xpath = "//span[@class='tasks-task-mpf-link']")
         public WebElement checkListIframe;
