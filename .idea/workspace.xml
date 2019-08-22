@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,14 +151,22 @@
       <option name="project" value="LOCAL" />
       <updated>1566177198875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some locators into tasksPage conflicts for jenkins">
+      <created>1566442769990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566442769990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Btrix24" />
     <MESSAGE value="adding the hook class" />
     <MESSAGE value="added some locators into tasksPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage" />
+    <MESSAGE value="added some locators into tasksPage conflicts for jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage conflicts for jenkins" />
   </component>
   <component name="masterDetails">
     <states>
