@@ -58,8 +58,6 @@ public class LoginPage {
     public void goToLandingPage() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 
-        Driver.getDriver().get(ConfigurationReader.getProperty
-                ("url" + ConfigurationReader.getProperty("url")));
 
     }
 
