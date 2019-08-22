@@ -1,7 +1,6 @@
 package com.Btrix24.step_definitions;
 
-import com.Btrix24.utulities.ConfigurationReader;
-import com.Btrix24.utulities.Driver;
+import com.Btrix24.utilities.Driver;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

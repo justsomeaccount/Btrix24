@@ -1,4 +1,4 @@
-package com.Btrix24.utulities;
+package com.Btrix24.utilities;
 
 import com.Btrix24.activity_stream.TasksPage;
 import com.Btrix24.pages.login_navigation.LoginPage;

@@ -1,8 +1,7 @@
 package com.Btrix24.step_definitions;
 
-import com.Btrix24.utulities.BrowserUtils;
-import com.Btrix24.utulities.Driver;
-import com.Btrix24.utulities.Pages;
+import com.Btrix24.utilities.Driver;
+import com.Btrix24.utilities.Pages;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,9 +9,14 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Random;
+
 public class TasksStepDefinition {
 
     Pages pages = new Pages();
+    int num;
 
     @Given("user on the landing page")
     public void user_on_the_landing_page() {
@@ -126,6 +130,7 @@ public class TasksStepDefinition {
     public void userSavesTheFormAndTaskCreated() {
         pages.tasksPage().addTaskButtonIframe.click();
 
+
     }
 
     @Then("user adds checklist")
@@ -139,5 +144,48 @@ public class TasksStepDefinition {
     @Then("user verify checklist added to task")
     public void userVerifyChecklistAddedToTask() {
         Assert.assertTrue(pages.tasksPage().checklistAddedIframe.isDisplayed());
+    }
+
+    @And("user adds file")
+    public void userAddsFile() {
+    pages.tasksPage().uploadFile.click();
+
+    num=new Random().nextInt(100);
+        try {
+            File file = new File(System.getProperty("user.home")+"/Downloads/newfile"+num+".txt");
+            /*If file gets created then the createNewFile()
+             * method would return true or if the file is
+             * already present it would return false
+             */
+            boolean fvar = file.createNewFile();
+            if (fvar){
+                System.out.println("File has been created successfully");
+            }
+            else{
+                System.out.println("File already present at the specified location");
+            }
+        } catch (IOException e) {
+            System.out.println("Exception Occurred:");
+            e.printStackTrace();
+        }
+
+    pages.tasksPage().uploadFilesAndImages.sendKeys(System.getProperty("user.home")+"/Downloads/newfile"+num+".txt");
+
+
+
+    }
+
+    @Then("user verify file added to task")
+    public void userVerifyFileAddedToTask() {
+        Assert.assertEquals("newfile"+num+".txt",pages.tasksPage().uploadedFile.getText());
+        System.out.println();
+    }
+
+    @Then("user should be able to see taskpage")
+    public void userShouldBeAbleToSeeTaskpage() {
+
+        Assert.assertEquals("Portal",Driver.getDriver().getTitle());
+        System.out.println();
+
     }
 }

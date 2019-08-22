@@ -10,11 +10,10 @@ import org.junit.runner.RunWith;
 //used to configure that how we tun cucumber test
 @CucumberOptions(
         plugin ={
-                "json:target/cucumber.json",
+                "json:target/cucumber_1.json",
                 "html:target/default-cucumber-reports"
         },
-       tags = {"@wip"},
-        features = {"src/test/resources/features"  }, //to specify where are the features
+        features = {"src/test/resources/features/login"}, //to specify where are the features
 
         //feature contains scenarios
         //every scenario is like a test
@@ -26,5 +25,5 @@ import org.junit.runner.RunWith;
 
 )
 
-public class CukesRunner {
+public class CukesRunner_Parallel_1 {
 }
