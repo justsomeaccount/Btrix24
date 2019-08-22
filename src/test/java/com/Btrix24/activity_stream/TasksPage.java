@@ -48,6 +48,22 @@ public class TasksPage extends BasePage {
     @FindBy(css=".js-id-checklist-is-i-title ")
     public WebElement checklistAddedIframe;
 
+    @FindBy(css="#bx-b-uploadfile-task-form-bitrix_tasks_task_default_1")
+    public WebElement uploadFile;
+
+    @FindBy(css="input[type='file']")
+    public WebElement uploadFilesAndImages;
+
+    @FindBy(css="span[title='Click to insert file']")
+    public WebElement uploadedFile;
+
+
+
+
+
+
+
+
 
 
 
