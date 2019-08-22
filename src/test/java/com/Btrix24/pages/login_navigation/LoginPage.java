@@ -1,7 +1,7 @@
 package com.Btrix24.pages.login_navigation;
 
-import com.Btrix24.utulities.ConfigurationReader;
-import com.Btrix24.utulities.Driver;
+import com.Btrix24.utilities.ConfigurationReader;
+import com.Btrix24.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

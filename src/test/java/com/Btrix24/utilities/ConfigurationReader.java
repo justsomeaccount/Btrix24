@@ -1,4 +1,4 @@
-package com.Btrix24.utulities;
+package com.Btrix24.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
