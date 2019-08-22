@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" afterDir="false" />
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -75,6 +78,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -98,6 +103,7 @@
       </branch-storage>
     </favorite-branches>
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -118,6 +124,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -131,6 +139,7 @@
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -280,6 +289,8 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
@@ -295,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner_Parallel_2">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Btrix24" />
       <extension name="coverage">
@@ -311,8 +322,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CukesRunner_Parallel_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Btrix24.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Btrix24.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Btrix24.runners.CukesRunner_Parallel_2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner_With_Tags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Btrix24.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Btrix24.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Btrix24.runners.CukesRunner_With_Tags" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner_Parallel_2" />
+        <item itemvalue="JUnit.CukesRunner_With_Tags" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -349,9 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1566177198875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some locators into tasksPage conflicts for jenkins">
+      <created>1566442769990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566442769990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="CukesRunner - 2019.08.17 at 19h 21m 30s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
@@ -438,10 +489,13 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+=======
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Btrix24" />
     <MESSAGE value="adding the hook class" />
     <MESSAGE value="added some locators into tasksPage" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage" />
   </component>
   <component name="editorHistoryManager">
@@ -566,6 +620,10 @@
         </state>
       </provider>
     </entry>
+=======
+    <MESSAGE value="added some locators into tasksPage conflicts for jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage conflicts for jenkins" />
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
   </component>
   <component name="masterDetails">
     <states>

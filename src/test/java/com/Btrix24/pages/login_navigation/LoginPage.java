@@ -56,12 +56,11 @@ public class LoginPage {
         loginElement.click();
     }
     public void goToLandingPage() {
-<<<<<<< HEAD
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-=======
+
         Driver.getDriver().get(ConfigurationReader.getProperty
                 ("url" + ConfigurationReader.getProperty("url")));
->>>>>>> tugba
+
     }
 
 }
