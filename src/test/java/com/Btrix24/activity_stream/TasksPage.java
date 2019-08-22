@@ -57,24 +57,6 @@ public class TasksPage extends BasePage {
     public WebElement uploadedFile;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ////////////I reviewed until here (MD)/////////////////////////////
         @FindBy(xpath = "//a[@id='tasks-buttonAdd']")
         public WebElement newTaskButton;
@@ -91,17 +73,26 @@ public class TasksPage extends BasePage {
         @FindBy(css=".bx-calendar-cell")
         public List<WebElement> dayButton;
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
 
         @FindBy(xpath = " //a[@class='menu-item-plus-icon']")
         public WebElement newTaskPlusIconOnLeft;
 
+<<<<<<< HEAD
+        @FindBy(xpath = "//tr[@data-child-loaded='false']")
+        public WebElement newTaskDisplayingLocator;
+        
+=======
 
 
         @FindBy(xpath = "//tr[@data-child-loaded='false']")
         public WebElement newTaskDisplayingLocator;
 
 
+>>>>>>> a36b6de04673759f7b8e19acf123b26683f16437
 
         @FindBy(xpath = "//span[@class='tasks-task-mpf-link']")
         public WebElement checkListIframe;
