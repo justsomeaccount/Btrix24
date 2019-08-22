@@ -25,7 +25,6 @@ Feature: As a user I should be able to create a task from activity stream.
       Given user on the landing page
       Then  user logs into application with "helpdesk45@cybertekschool.com" and "UserUser"
       Then  user clicks on plus button on left of Tasks button
-      And   user adds task on pop up form
       And   user upload a "link"
       Then  user verify checklist added to task
 
