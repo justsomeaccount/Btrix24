@@ -76,14 +76,46 @@ public class TasksPage extends BasePage {
         @FindBy(css=".bx-calendar-cell")
         public List<WebElement> dayButton;
 
+        @FindBy(xpath = "//span[contains(text(),'Tasks')]")
+        public WebElement tasksButtonLeft;
+
+        @FindBy(xpath = " //a[@class='menu-item-plus-icon']")
+        public WebElement newTaskPlusIconOnLeft;
 
         @FindBy(xpath="//button[@class=‘ui-btn ui-btn-success’]")
-        public WebElement addTaskButton;
+        public WebElement addTaskButtonIframe;
 
         @FindBy(xpath = "//tr[@data-child-loaded='false']")
         public WebElement newTaskDisplayingLocator;
 
-       //to select month
+        @FindBy(xpath = " //body[@id='tasks-iframe-popup-scope']")
+        public WebElement iframeSrc;
+
+        @FindBy(xpath = "//span[@class='tasks-task-mpf-link']")
+        public WebElement checkListIframe;
+
+        @FindBy(xpath = "//span[@class='task-checklist-form-vpadding']//input[@type='text']")
+        public WebElement checkListIframeThingsToDo;
+
+        @FindBy(xpath = "//span[text()='add']")
+        public WebElement getCheckListIframeAddButton;
+
+        @FindBy(xpath = "//span[@title='Link']")
+        public WebElement iframeLinkButton;
+
+        @FindBy(xpath = "//div[@id='bx-admin-prefix']")
+        public WebElement iframeLinkLocator;
+
+        @FindBy(xpath = "//input[@placeholder='Link text']")
+        public WebElement iframeLinkText;
+
+        @FindBy(xpath = "//input[@placeholder='Link URL']")
+        public WebElement iframeLinkUrl;
+
+        @FindBy(xpath = "//input[@value='Save']")
+        public  WebElement iframeSaveButton;
+
+        //to select month
         public void selectMonth(String month){
         Select monthSelection= new Select(monthButton);
         List<WebElement> months= monthSelection.getOptions();
