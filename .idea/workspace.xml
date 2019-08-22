@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="" />
+    <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="added some locators into tasksPage conflicts for jenkins-4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/externalFiles/Users.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/externalFiles/~$Users.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +55,21 @@
     <option name="width" value="1006" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/externalFiles" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Btrix24.utilities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/externalFiles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner_Parallel_2">
+  <component name="RunManager" selected="JUnit.CukesRunner_With_Tags">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Btrix24" />
       <extension name="coverage">
@@ -111,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CukesRunner_Parallel_2" />
         <item itemvalue="JUnit.CukesRunner_With_Tags" />
+        <item itemvalue="JUnit.CukesRunner_Parallel_2" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -163,16 +183,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566443004724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added some locators into tasksPage conflicts for jenkins-4">
+      <created>1566444068657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566444068657</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Btrix24" />
     <MESSAGE value="adding the hook class" />
     <MESSAGE value="added some locators into tasksPage" />
     <MESSAGE value="added some locators into tasksPage conflicts for jenkins" />
     <MESSAGE value="added some locators into tasksPage conflicts for jenkins-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage conflicts for jenkins-2" />
+    <MESSAGE value="added some locators into tasksPage conflicts for jenkins-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage conflicts for jenkins-4" />
   </component>
   <component name="masterDetails">
     <states>

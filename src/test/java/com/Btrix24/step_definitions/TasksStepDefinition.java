@@ -1,6 +1,7 @@
 package com.Btrix24.step_definitions;
 
 import com.Btrix24.utilities.Driver;
+import com.Btrix24.utilities.ExcelUtil;
 import com.Btrix24.utilities.Pages;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -11,6 +12,8 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 public class TasksStepDefinition {
@@ -186,6 +189,24 @@ public class TasksStepDefinition {
 
         Assert.assertEquals("Portal",Driver.getDriver().getTitle());
         System.out.println();
+
+    }
+
+    @When("user logs into application with {string}")
+    public void userLogsIntoApplicationWith(String userType) {
+        String filePath=System.getProperty("user.home")+"/IdeaProjects/Btrix24/src/test/resources/externalFiles/Users.xlsx";
+        ExcelUtil excelUtil=new ExcelUtil(filePath,"Credentials");
+        List<Map<String,String>> dataList=excelUtil.getDataList();
+
+        for (Map<String,String >rowMap:dataList){
+            if(userType.equalsIgnoreCase(rowMap.get("User"))) {
+                String username=rowMap.get("Username");
+                String password=rowMap.get("Password");
+                pages.loginPage().login(username,password);
+
+            }
+        }
+
 
     }
 }
