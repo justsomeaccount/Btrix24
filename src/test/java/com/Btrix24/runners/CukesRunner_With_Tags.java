@@ -23,6 +23,11 @@ import org.junit.runner.RunWith;
         //dry tun - to generate step definitions automatically
         //you will see them in the console output
         dryRun =false
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> tugba
 
 )
 

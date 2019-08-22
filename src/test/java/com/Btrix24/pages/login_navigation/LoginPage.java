@@ -31,8 +31,8 @@ public class LoginPage {
     }
 
     public void login(){
-        String username = ConfigurationReader.getProperty("storemanagerusername");
-        String password = ConfigurationReader.getProperty("storemanagerpassword");
+        String username = ConfigurationReader.getProperty("helpdeskusername1");
+        String password = ConfigurationReader.getProperty("helpdeskpassword");
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
         loginElement.click();
@@ -56,7 +56,12 @@ public class LoginPage {
         loginElement.click();
     }
     public void goToLandingPage() {
+<<<<<<< HEAD
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+=======
+        Driver.getDriver().get(ConfigurationReader.getProperty
+                ("url" + ConfigurationReader.getProperty("url")));
+>>>>>>> tugba
     }
 
 }

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +19,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40062597">
+    <splitter split-orientation="horizontal" split-proportion="0.8362832">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+                <state>
+                  <caret line="59" selection-start-line="59" selection-end-line="59" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -33,11 +34,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+                <state relative-caret-position="470">
+                  <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/configuration.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -50,26 +72,22 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/activity_stream/task.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="48" column="96" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1003#1004#0" expanded="true" />
-                    <element signature="e#1023#1024#0" expanded="true" />
-                    <element signature="e#1311#1312#0" expanded="true" />
-                    <element signature="e#1330#1331#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="475">
+                  <caret line="25" column="74" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/features/activity_stream/task.feature">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                <state relative-caret-position="804">
+                  <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -87,6 +105,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="tugba" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,16 +126,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/utulities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/utulities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/utulities/BrowserUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/activity_stream/task.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/utulities/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/utulities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/Hook.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/activity_stream/task.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -115,9 +146,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="714" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="556" />
+    <option name="y" value="30" />
+    <option name="width" value="1006" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,7 +300,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566098032701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some locators into tasksPage">
+      <created>1566177198875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566177198875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -341,27 +381,46 @@
     <history-entry file="CukesRunner - 2019.08.17 at 19h 23m 44s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 09h 17m 06s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 09h 17m 38s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 13h 27m 44s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 14h 56m 29s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 15h 00m 00s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.20 at 15h 01m 32s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="556" y="30" width="1006" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13948497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2780083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.17197452" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.21933086" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.03717472" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8855508" weight="0.22168675" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.43253013" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -373,23 +432,23 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2520747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.17197452" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.49808916" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.03717472" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8855508" weight="0.22168675" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.43253013" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,7 +463,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Btrix24" />
     <MESSAGE value="adding the hook class" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the hook class" />
+    <MESSAGE value="added some locators into tasksPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some locators into tasksPage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -474,40 +534,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" selection-start-line="10" selection-start-column="4" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/login.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/activity_stream/TasksPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state relative-caret-position="804">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -516,21 +549,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/activity_stream/task.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="475">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="48" column="96" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
+        <state>
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/pages/login_navigation/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Btrix24/runners/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
