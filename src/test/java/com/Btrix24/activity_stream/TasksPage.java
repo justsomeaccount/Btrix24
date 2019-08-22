@@ -1,9 +1,8 @@
 package com.Btrix24.activity_stream;
 
-import com.Btrix24.utulities.BasePage;
-import com.Btrix24.utulities.Driver;
-import com.Btrix24.utulities.Pages;
-import com.google.errorprone.annotations.FormatString;
+import com.Btrix24.utilities.BasePage;
+import com.Btrix24.utilities.Driver;
+import com.Btrix24.utilities.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
