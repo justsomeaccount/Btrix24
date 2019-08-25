@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="added some locators into tasksPage">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -27,7 +26,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Btrix24/utulities/Pages.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/activity_stream/task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/activity_stream/task.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login/login.feature" afterDir="false" />
-=======
+
     <list default="true" id="9b3b26d7-2b57-4dce-a9bd-d840cc10da3c" name="Default Changelist" comment="added some locators into tasksPage conflicts for jenkins-4">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/utilities/ExcelUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/externalFiles/Users.xlsx" afterDir="false" />
@@ -36,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Btrix24/step_definitions/TasksStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" afterDir="false" />
->>>>>>> 1116aae5c0b24b01811244f15f4b9bf09567dae0
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +94,6 @@
     <option name="width" value="1006" />
     <option name="height" value="877" />
   </component>
-<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,10 +179,9 @@
         </subPane>
       </pane>
     </panes>
-=======
+
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
->>>>>>> 1116aae5c0b24b01811244f15f4b9bf09567dae0
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
