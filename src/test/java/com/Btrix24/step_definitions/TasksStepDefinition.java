@@ -187,9 +187,9 @@ public class TasksStepDefinition {
 
     @Then("user should be able to see taskpage")
     public void userShouldBeAbleToSeeTaskpage() {
-
-        Assert.assertEquals("Portal",Driver.getDriver().getTitle());
         System.out.println();
+        Assert.assertEquals("Portal",Driver.getDriver().getTitle());
+
 
     }
 
