@@ -12,6 +12,9 @@ Feature: Login Tests
       | marketing45@cybertekschool.com | UserUser |
       | marketing46@cybertekschool.com | UserUser |
       | hr45@cybertekschool.com        | UserUser |
+<<<<<<< HEAD
+      | hr46@cybertekschool.com        | UserUser |
+=======
       | hr46@cybertekschool.com        | UserUser |
 
 @wip
@@ -25,3 +28,4 @@ Feature: Login Tests
       | helpdesk  |
       | marketing |
       | hr        |
+>>>>>>> 1116aae5c0b24b01811244f15f4b9bf09567dae0
