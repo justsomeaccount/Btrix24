@@ -1,5 +1,6 @@
 package com.Btrix24.step_definitions;
 
+import com.Btrix24.utilities.BrowserUtils;
 import com.Btrix24.utilities.Driver;
 import com.Btrix24.utilities.ExcelUtil;
 import com.Btrix24.utilities.Pages;
@@ -18,8 +19,8 @@ import java.util.Random;
 
 public class TasksStepDefinition {
 
-    Pages pages = new Pages();
-    int num;
+    private Pages pages = new Pages();
+    private int num;
 
     @Given("user on the landing page")
     public void user_on_the_landing_page() {
@@ -207,6 +208,21 @@ public class TasksStepDefinition {
             }
         }
 
+
+    }
+
+    @And("user should be able to log off")
+    public void userShouldBeAbleToLogOff() {
+        pages.tasksPage().logOut();
+       // BrowserUtils.waitFor(2);
+
+
+
+    }
+
+    @Then("user should be on the landing page")
+    public void userShouldBeOnTheLandingPage() {
+        Assert.assertEquals("Authorization",Driver.getDriver().getTitle());
 
     }
 }

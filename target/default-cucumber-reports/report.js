@@ -1,29 +1,37 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/login/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/smokeTest/Smoke.feature");
 formatter.feature({
-  "name": "Login Tests",
+  "name": "Smoke Tests",
   "description": "",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "All types of users can login with excel file (data driven)",
-  "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Feature",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@smoke"
     }
   ]
+});
+formatter.scenarioOutline({
+  "name": "User should be able to login and logout",
+  "description": "",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "user logs into application with \"\u003cuserType\u003e\"",
+  "name": "user logs into application with \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
   "name": "user should be able to see taskpage",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user should be able to log off",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user should be on the landing page",
   "keyword": "Then "
 });
 formatter.examples({
@@ -33,33 +41,25 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "userType"
+        "username",
+        "password"
       ]
     },
     {
       "cells": [
-        "helpdesk"
-      ]
-    },
-    {
-      "cells": [
-        "marketing"
-      ]
-    },
-    {
-      "cells": [
-        "hr"
+        "helpdesk45@cybertekschool.com",
+        "UserUser"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "All types of users can login with excel file (data driven)",
+  "name": "User should be able to login and logout",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@smoke"
     }
   ]
 });
@@ -77,11 +77,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user logs into application with \"helpdesk\"",
+  "name": "user logs into application with \"helpdesk45@cybertekschool.com\" and \"UserUser\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "TasksStepDefinition.userLogsIntoApplicationWith(String)"
+  "location": "TasksStepDefinition.userLogsIntoApplicationWithAnd(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -96,96 +96,22 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "All types of users can login with excel file (data driven)",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "user on the landing page",
-  "keyword": "Given "
+  "name": "user should be able to log off",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "TasksStepDefinition.user_on_the_landing_page()"
+  "location": "TasksStepDefinition.userShouldBeAbleToLogOff()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user logs into application with \"marketing\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "TasksStepDefinition.userLogsIntoApplicationWith(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should be able to see taskpage",
+  "name": "user should be on the landing page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TasksStepDefinition.userShouldBeAbleToSeeTaskpage()"
-});
-formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Portal]\u003e but was:\u003c[Authorization]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Btrix24.step_definitions.TasksStepDefinition.userShouldBeAbleToSeeTaskpage(TasksStepDefinition.java:190)\n\tat ✽.user should be able to see taskpage(src/test/resources/features/login/login.feature:21)\n",
-  "status": "failed"
-});
-formatter.embedding("image/png", "embedded0.png");
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "All types of users can login with excel file (data driven)",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "TasksStepDefinition.user_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user logs into application with \"hr\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "TasksStepDefinition.userLogsIntoApplicationWith(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should be able to see taskpage",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "TasksStepDefinition.userShouldBeAbleToSeeTaskpage()"
+  "location": "TasksStepDefinition.userShouldBeOnTheLandingPage()"
 });
 formatter.result({
   "status": "passed"
