@@ -3,7 +3,9 @@ package com.Btrix24.activity_stream;
 import com.Btrix24.utilities.BasePage;
 import com.Btrix24.utilities.Driver;
 import com.Btrix24.utilities.Pages;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -15,6 +17,8 @@ public class TasksPage extends BasePage {
 
 
     Pages pages = new Pages();
+    WebDriver driver=Driver.getDriver();
+    Actions action=new Actions(driver);
 
     public TasksPage(){
         PageFactory.initElements(Driver.getDriver(), this);}
@@ -114,7 +118,15 @@ public class TasksPage extends BasePage {
         @FindBy(xpath = "//input[@value='Save']")
         public  WebElement iframeSaveButton;
 
-        //to select month
+        @FindBy(css = "#user-name")
+        public  WebElement usernameShownDropDown;
+
+        @FindBy(xpath = "//span[.='Log out']")
+        public  WebElement logOutSelection;
+
+
+
+    //to select month
         public void selectMonth(String month){
         Select monthSelection= new Select(monthButton);
         List<WebElement> months= monthSelection.getOptions();
@@ -138,4 +150,13 @@ public class TasksPage extends BasePage {
 
 
         }
+
+      public void logOut(){
+            action.click(usernameShownDropDown).perform();
+            action.click(logOutSelection).perform();
+
+
+      }
+
+
 }
