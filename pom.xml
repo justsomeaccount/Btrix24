@@ -89,7 +89,7 @@
                     <forkMode>perthread</forkMode>
 
                     <includes>
-                        <include>**/CukesRunner_Parallel*.java</include>
+                        <include>**/CukesRunner_With_Tags*.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
