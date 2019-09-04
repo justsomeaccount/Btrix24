@@ -61,6 +61,30 @@ public class TasksPage extends BasePage {
     public WebElement uploadedFile;
 
 
+    ////////Message Func//////////////
+
+    @FindBy(css="[id^=blog_post_body]")
+    public WebElement firstMessageOnActivityStream;
+
+    @FindBy(css=".feed-add-post-micro-title")
+    public WebElement messageOnActivityStream;
+
+    @FindBy(css="[contenteditable=true]")
+    public WebElement messageBodyOnActivityStream;
+
+    @FindBy(css="#blog-submit-button-save")
+    public WebElement messageSaveOnActivityStream;
+
+    @FindBy(css=".bx-editor-iframe")
+    public WebElement messageIframe;
+
+
+
+
+
+    ////////Message Func//////////////
+
+
     ////////////I reviewed until here (MD)/////////////////////////////
         @FindBy(xpath = "//a[@id='tasks-buttonAdd']")
         public WebElement newTaskButton;

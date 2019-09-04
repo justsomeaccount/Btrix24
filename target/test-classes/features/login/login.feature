@@ -14,7 +14,7 @@ Feature: Login Tests
       | hr45@cybertekschool.com        | UserUser |
       | hr46@cybertekschool.com        | UserUser |
 
-@wip
+
   Scenario Outline: All types of users can login with excel file (data driven)
     Given user on the landing page
     When  user logs into application with "<userType>"
