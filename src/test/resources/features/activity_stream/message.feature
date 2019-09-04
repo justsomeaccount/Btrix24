@@ -1,6 +1,6 @@
 Feature: Message functionality
 
-  @smoke
+  
   Scenario Outline: User should be able send message
     Given user on the landing page
     When user logs into application with "<username>" and "<password>"
